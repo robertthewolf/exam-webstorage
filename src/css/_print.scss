@@ -1,0 +1,17 @@
+@media print {
+
+    @page {
+        margin: 0.5cm;
+        font: 12pt serif;
+    }
+
+    * {
+
+        color: black;
+    }
+
+    button, .worker > form, .type-to-add, canvas, .tippy-popper {
+        display: none;
+    }
+  
+}
